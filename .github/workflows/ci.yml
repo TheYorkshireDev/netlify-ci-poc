@@ -5,6 +5,9 @@ name: Development workflow
 on:
   pull_request:
 
+permissions:
+  pull-requests: write
+
 # Jobs to carry out
 jobs:
   deploy:
